@@ -1,3 +1,6 @@
+Steps for sock shop demo install
+
+```
 helm install .
 
 helm install stable/nginx-ingress
@@ -14,3 +17,4 @@ spec:
 EOF
 
 kubectl apply -f ingress.yaml
+```
